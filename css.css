@@ -1,0 +1,25 @@
+body{
+  text-align:center;
+    background:#fffaf0;
+}
+button{
+  width:70px;
+  height: 70px;
+  border-radius:30px;
+  font-size: 24px
+   
+} 
+.container{
+  background:MediumSlateBlue;
+  border-radius: 23px; 
+  display:inline-block; 
+  padding-top:10px;
+  width: 300px;
+  height: 360px;
+  box-shadow: 0px 0px 8px green;
+  transition:0.5s;
+} 
+.container:hover{
+  transition:0.5s;
+  box-shadow: -5px 0px 20px green,5px 0px 20px blue;
+}

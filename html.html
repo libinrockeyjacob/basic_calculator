@@ -1,0 +1,47 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css.css" rel="stylesheet"/>
+    <script src="./calcjs.js"></script>
+
+    <title>calculate</title>
+</head>
+  <body>
+    <div class='container'>
+      <div style="background:Ivory;border-radius:20px">
+        <div id='display' style="text-align:left;float:left;height:65px;width:75%;font-size:50px;overflow:auto;" ></div>
+    <button style="display:inline-block;font-size:15px;font-weight:bold;font-family:sans-serif;" id='clear' onclick="clearing()">CLEAR</button> 
+      </div> 
+    <div>
+    <button id='zero'onclick='number(0)'>0</button>
+    <button id='one' onclick='number(1)'>1</button>
+    <button id='two'onclick='number(2)'>2</button>
+    <button id='add' onclick="operation('+')">+</button>
+      
+    </div>
+    <div>
+    <button id='three'onclick='number(3)'>3</button>
+    <button id='four'onclick='number(4)'>4</button>
+    <button id='five'onclick='number(5)'>5</button>
+    <button id='subtract'onclick="operation('-')">_</button>
+    </div>
+    <div>
+    <button id='six'onclick='number(6)'>6</button>
+    <button id='seven'onclick='number(7)'>7</button>
+    <button id='eight'onclick='number(8)'>8</button>
+    <button id='multiply'onclick="operation('x')">x</button>
+    </div>
+         
+      <div>
+        <div style="float:right;margin-right:5px;">
+    <button id='decimal' onclick='cdecimal()'>.</button>
+    <button  id='nine'onclick='number(9)'>9</button>
+    <button id='equals'onclick="calculating()">=</button>
+    <button id='divide'onclick="operation('/')">/</button>
+        </div>
+    </div>
+   
+  </body>
+</html>
